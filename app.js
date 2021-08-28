@@ -6,7 +6,7 @@ const https=require("https");
 
 app.get("/",function(req,res){
    
-  const url="https://api.openweathermap.org/data/2.5/weather?q=London&appid=432374fe0007216560ded01642a5e9c3";
+  const url="https://api.openweathermap.org/data/2.5/weather?q=London&appid=  YOUR API KEY   ";
    https.get(url,function(response){
    console.log(response.statusCode);
   
